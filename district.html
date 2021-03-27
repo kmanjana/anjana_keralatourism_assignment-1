@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/district.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>DISTRICTS</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/logo1.jpg">
+</head>
+<style>
+header {
+    color: #fff;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    backdrop-filter: brightness(10%);
+}
+header::after {
+    background-image: url("images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    background-position:center 47%;
+}
+/* body{
+  background:  -webkit-linear-gradient(left, #b64747, #130a05);
+} */
+h5{
+text-align: center;
+color: black;
+}
+a:hover{
+color: black;
+text-decoration: white;
+}
+.imgdistr{
+  height: 14rem;
+}
+.heading{
+  font-size: 50px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+  background-color: bisque;
+}
+.activepg{
+    background-color: rgba(155, 101, 94, 0.801);
+}
+.navli a:hover:not(.activepg) {
+background-color:    rgb(179, 120, 113);
+text-decoration: none;
+color: white
+}
+
+</style>
+<body>
+<!-- header -->
+<header>
+<nav class="navbar  navbar-expand-lg navbar-light" >
+  <img src="images/logo1.jpg" height="35" alt="logo" style="backdrop-filter: brightness(40%);">
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="navli "><a  href="index.html">Home <span class="sr-only">(current)</span></a></li>
+      <li class="navli"><a href="login.html">Sign In</a></li>
+      <li class="navli"><a href="signup.html">Sign Up</a></li>
+      <li class="navli activepg"><a href="district.html">Districts</a></li>
+      <li class="navli"><a href="#">About</a></li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-color: bisque;color:white">Search</button>
+    </form>
+  </div>
+</nav>
+     <div class="heading">DISTRICTS</div>
+</header>
+<!-- ./header -->
+
+<!-- Districts -->
+<br>
+<div class="card-deck">
+  <div class="card ">
+    <a href="alappuzha.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/alappuzha1.jpg" alt="Card image cap"></div>
+    <div class="card-body ">
+      <h5 class="card-title ">Alappuzha</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="ernakulam.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/ernakulam1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Ernakulam</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="idukki.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/idukki1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Idukki</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="kannur.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/kannur1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Kannur</h5>
+    </div>
+  </div></a>
+</div><br>
+<div class="card-deck">
+  <div class="card ">
+    <a href="kasargod.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/kasargod1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Kasargod</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="kollam.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/kollam1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Kollam</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="kottayam.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/kottayam1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Kottayam</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="kozhikode.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/kozhikode1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Kozhikode</h5>
+    </div>
+  </div></a>
+</div><br>
+<div class="card-deck">
+  <div class="card ">
+    <a href="malappuram.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/malappuram1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Malappuram</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="palakkad.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/palakkad1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Palakkad</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="pathanamthitta.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/pathanamthitta1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Pathanamthitta</h5>
+    </div>
+  </div></a>
+  <div class="card ">
+    <a href="thiruvananthapuram.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/thiruvananthapuram1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Thiruvananthapuram</h5>
+    </div>
+  </div></a>
+</div><br>
+<div class="card-deck" >
+  <div class="card " style="max-width: 22.3rem;">
+    <a href="thrissur.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/thrissur1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Thrissur</h5>
+    </div>
+  </div></a>
+  <div class="card " style="max-width: 22.3rem;">
+    <a href="wayanad.html"><div class="card-img-wrap"><img class="card-img-top imgdistr" src="images/wayanad1.jpg" alt="Card image cap"></div>
+    <div class="card-body">
+      <h5 class="card-title">Wayanad</h5>
+    </div>
+  </div></a>
+ 
+</div>
+<!-- ./Districts -->
+<br>
+<!-- footer -->
+<div class="footer ">
+  <!-- <div class="footer fixed-bottom"> -->
+<footer id="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul class="list-unstyled list-inline social text-center">
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+          </div>
+          <hr>
+      </div>	
+      <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+              <p class="h6"><a href="#">Privacy |</a><a href="#">Sitemap |</a><a href="#">Contact Us |</a><a href="#">Terms & Conditions</a>
+              <br><br>© All right Reversed.</p>
+          </div>
+      </div>	
+  </div>
+</footer>
+</div> 
+
+<!-- ./Footer -->  
+</body>
+</html>

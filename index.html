@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERALA TOURISM</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/logo1.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+</head>
+<style>
+  body {
+display: block;
+position: relative;
+backdrop-filter: brightness(70%);
+
+}
+body::after {
+  background-image: url(images/img10.jpg);
+  content: "";
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* about */
+.background-img{
+    background-image: url("images/about1.jpg");
+    height: 650px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% auto;
+    padding:20px;
+    border: 1px solid #186e2e;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px #186e2e;
+    position: relative;
+  }
+
+.aboutbackg{
+  background-color: rgba(255, 255, 255, 0.699);
+}
+/* top places */
+.card{
+  background-color: rgba(255, 255, 255, 0.075);
+  min-height: 16rem;
+}
+.card-img{
+  min-height: 16rem;
+}
+.card-title{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.521);
+    color:white;
+}
+.card:hover{
+  transform: scale(1.09);
+}
+
+</style>
+<body>
+    <!-- header -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" >
+      <img src="images/logo1.jpg" height="35" alt="logo" style="backdrop-filter: brightness(100%);">
+      <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="navli activepg"><a  href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li class="navli"><a href="login.html">Sign In</a></li>
+            <li class="navli"><a href="signup.html">Sign Up</a></li>
+            <li class="navli"><a href="district.html">Districts</a></li>
+            <li class="navli"><a href="#">About</a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-color: bisque;color:white">Search</button>
+          </form>
+        </div>
+      </nav>
+   
+      <!-- ./header -->
+      <!-- carousal -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-interval="9000" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/img5.jpg" alt="First slide" style="height:100px;margin-bottom: 100px;">
+            <div class="carousel-caption d-none d-md-block">
+              <div style="font-size: 55px;background-color: rgba(70, 108, 109, 0.904);
+                          border-radius: 20px; border: 1px solid rgb(143, 243, 160);
+                          color:white;width: 80%;margin-left: 140px;
+                          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                WELCOME TO <br>KERALA TOURISM</div>
+              <br><br><br><br><br><br>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/home_carou_fortkochi.jpg" alt="Second slide"  style="height:100px;margin-bottom: 100px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fort Kochi</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/home_carou_anamudi.jpg" alt="Second slide"  style="height:100px;margin-bottom: 100px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Anamudi Peak</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/home_carou_ashtamudi.jpg" alt="Third slide" style="height:100px;margin-bottom: 100px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ashtamudi Lake</h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- ./carousal -->
+    <div class="aboutbackg"><br>
+        <div class="contabout">
+          <div class="background-img">
+          <h2 style="text-align: center;">About Kerala </h2>
+          <div class="box">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <div class="content">
+                 <p>
+                  India`s most idyllic state, Kerala, better known as Gods Own Country, is today one of the most sought after tourist destinations in India. Secluded beaches, palm-fringed backwaters, mist-clad hill stations,lush tropical forests, cascading waterfalls, exotic wildlife, majestic monuments, fine art forms and enchanting festivals give it a distinctive charm. Apart from being a tourist destination, Kerala is home toIndias most advanced society. 
+                  100% literate, the State has Indias highest density of Science and Technology personnel,highest Physical Quality of Life Index (PQLI ),highest life expectancy and the lowest infant mortality rate. Kerala to be sure, isIndias cleanest and the most peaceful State.
+                  Strategically located at the south western tip of India, Kerala enjoys unique geographic features which have made it one of the most popular tourist destinations in Asia.As a destination, Kerala can attract the independent traveller with its unique qualities like the pristine environment, the rich and vibrant culture and the high quality of life among the local inhabitants brought about by the states investments since Independence in the fields of education, health care, institutions of democracy, social justice etc. 
+                  </p>
+              </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <h2 class="font-weight-light" style="text-align: center;background-color: rgba(0, 0, 0, 0.829);color: white;">Top Places To Visit in Kerala</h2>
+    <div style="margin-left: 10%;margin-right: 10%;">
+    <div class="card-deck">
+      <div class="card ">
+        <img class="card-img" src="images/top_eravikulam.jpg" alt="Card image">
+        <div class="card-img-overlay"><br><br><br><br><br><br><br>
+          <h5 class="card-title">Eravikulam National Park</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="images/top_alappuzhabeach.jpg" alt="Card image cap" style="min-width: 22rem;">
+        <div class="card-img-overlay"><br><br><br><br><br><br><br>
+          <h5 class="card-title">Alappuzha Beach</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="images/top_padmanabhaswami.jpg" alt="Card image cap" style="min-width: 28rem;">
+        <div class="card-img-overlay"><br><br><br><br><br><br><br>
+          <h5 class="card-title">Sree Padmanabhaswamy Temple</h5>
+        </div>
+    </div></div><br>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img" src="images/top_bekal.jpg" alt="Card image cap" >
+        <div class="card-img-overlay"><br><br><br><br><br><br><br>
+          <h5 class="card-title">Bekal Fort</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="images/top_parambikulam.jpg" alt="Card image cap" style="min-height: 16rem;">
+        <div class="card-img-overlay"><br><br><br><br><br><br><br>
+          <h5 class="card-title">Parambikulam Tiger Reserve</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="images/top_church.jpg" alt="Card image cap">
+        <div class="card-img-overlay"><br><br><br><br><br><br><br>
+          <h5 class="card-title">St. Andrew's Basilica Church</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- footer -->
+        <div class="footer ">
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>	
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p class="h6"><a href="#">Privacy |</a><a href="#">Sitemap |</a><a href="#">Contact Us |</a><a href="#">Terms & Conditions</a>
+                        <br><br>© All right Reversed.</p>
+                    </div>
+                </div>	
+            </div>
+        </footer>
+       </div> 
+	
+	<!-- ./Footer -->  
+</body>
+</html>
